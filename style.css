@@ -1,0 +1,531 @@
+.inicio{
+    background-color: #fff159
+}
+.inicio1{
+    background: none;
+}
+#header{
+    width: 100%;
+}
+.categorias button{
+    padding: 15px;
+    background-color: #fff159;
+    margin-bottom: 200px;
+    margin: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+.categorias2 button{
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+.categorias2{
+    margin-top: 100px;
+}
+.categorias2 h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+.categorias2 img{
+    width: 110px;
+}
+.categorias img{
+    width: 115px;
+}
+
+
+.topo #links a{
+    padding: 20px;
+    margin-right: 30px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top:60px;
+    margin-left: 20px;
+}
+
+hr{
+    padding: 0.5px;
+    margin-top: 15px;
+    background-color: black;
+}
+
+.topo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logo img{
+    width: 170px;
+    padding-left: 20px;
+}
+
+.nav #links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100px;
+    align-items: center;
+}
+
+.barra {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 530px;
+    margin-top: 73px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 0px;
+}
+.lupa{
+    background: none;
+    border: none;
+    font-size: 20px;
+    width: 20%;
+    height: 100%;
+}
+
+#barra_pesquisa{
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 15px;
+    margin-top: 65px;
+}
+
+#barra_pesquisa input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#barra_pesquisa button i{
+    width: 35px !important;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ofertas #ofertas-dia{
+    height: 200px;
+    width: 950px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 80px;
+}
+#ofertas-dia2{
+    height: 200px;
+    width: 100px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.ofertinhas{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 40px;
+}
+.fritadeira,
+.camera,
+.laptop,
+.cadeira,
+.meia{
+    background-color: white;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.fritadeira img,
+.camera img,
+.laptop img,
+.cadeira img,
+.meia img{
+    width: 200px;
+    padding: 5px;
+}
+.ofertinhas img{
+    margin-top: 15px;
+}
+
+#ofertas h3,
+#promocao h3{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.ofertinhas button{
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: 1000;
+    padding: 5px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.valor{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.preco{
+    margin-left: 15px;
+    color: green;
+    font-weight: 300;
+}
+.frete{
+    margin-left: 15px;
+    color: green;
+    font-weight: 1000;
+}
+.nome{
+    margin-left: 15px;
+    font-weight: 1000;
+    font-size: 0.9em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+#foot{
+    padding: 15px;
+    background-color: #fff159;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.fot2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #fff159;
+    font-display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-image: url(img/outros/rodape.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 200px;
+}
+#login-formulario{
+    background-color: white;
+    width: 45vw;
+    height: 90vh;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0 50px 55px rgba(0,0,0,0.3);
+}
+#login-formulario1{
+    background-color: white;
+    width: 45vw;
+    height: 100vh;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0 50px 55px rgba(0,0,0,0.3);
+}
+
+#banner2,
+#banner3{
+    background-image: url(../senai-livre/img/banner2.PNG);
+    background-repeat: no-repeat;
+    border-radius: 15px 0px 0px 15px;
+    background-size: cover;
+    box-shadow: 0 50px 55px rgba(0,0,0,0.3);
+}
+.login{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+main #login1 h3{
+    text-align: center;
+    font-size: 2em;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+main #login{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+main .login #login-formulario form,
+main .login #login-formulario1 form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+main .login #login-formulario form input,
+main .login #login-formulario1 form input{
+    display: block;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 450px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+main .login #login-formulario .login-formulario-submit button,
+.login #login-formulario1 .login-formulario-submit button{
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #fa1643;
+    color: black;
+    border-radius: 20px;
+    width: 220px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 5px 5px #fa16447d;
+    font-weight: bolder;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+main .login #login-formulario .login-formulario-submit2 button,
+.login #login-formulario1 .login-formulario-submit2 button{
+    
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border: none;
+    background-color: #fa164400;
+    color: black;
+    border-radius: 20px;
+    width: 240px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.login #login-formulario #redes h4{
+    border-top: 200px;
+}
+#icon{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+main #registro h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+main #registro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+main #registro #registro-formulario form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #registro #registro-formulario form input{
+    display: block;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 1px solid black;
+    width: 320px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+main #registro #registro-formulario form button{
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #fff159;
+    color: black;
+    border-radius: 20px;
+    width: 360px;
+    cursor: pointer;
+}
+
+
+#banner-consumidor{
+    margin-top: 200px;
+    text-align: center;
+}
+#banner-consumidor h4{
+    margin: 15px;
+    margin-bottom: 25px;
+    font-size: 1.3em;
+}
+#banner-consumidor img{
+    width: 90%;
+}
+
+#banner-ofertas{
+    margin-left: 10px;
+}
+#banner-ofertas img{
+    width:380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+#banner-ofertas h4{
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.banners img:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.categorias2 img:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.categorias2 img{
+    border-radius: 180px;
+}
+
+.categorias {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    width: 100%;
+    transition:  all 0.5s;
+    z-index: 8;
+    background-color: #fff159;
+    margin-bottom: 200px;
+}
+
+.aberto {
+    top: 180px;
+}
+
+.fritadeira:hover,
+.camera:hover,
+.laptop:hover,
+.cadeira:hover,
+.meia:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.6s ease-in-out;
+}
+#header nav a:hover{
+    background-color: rgb(66, 66, 249);
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+#links{
+    text-align: center;
+    padding-right: -20px;
+}
+
+.barra:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+
+.top {
+    position: relative;
+    z-index: 9;
+    background-color: #fff159;
+}
+
+.tela{
+    margin-left: 290px;
+    margin-top: 35px;
+    box-shadow: 0 10px 2px -2px rgb(189, 188, 188);
+    cursor: pointer;
+    border-radius: 7px;
+    z-index: 8;
+
+}
+
+.fundo{
+    z-index: 7;
+    width: 98.72vw;
+    height: 125vh;
+    background-image: linear-gradient(
+        315deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(289deg 100% 21%) 8%,
+        hsl(315deg 100% 27%) 17%,
+        hsl(329deg 100% 36%) 26%,
+        hsl(337deg 100% 43%) 36%,
+        hsl(357deg 91% 59%) 47%,
+        hsl(17deg 100% 59%) 59%,
+        hsl(34deg 100% 53%) 71%,
+        hsl(45deg 100% 50%) 84%,
+        hsl(55deg 100% 50%) 99%
+
+);
+}
+.fundo1{
+    z-index: 7;
+    width: 98.72vw;
+    height: 155vh;
+    background-image: linear-gradient(
+        180deg,
+    hsl(55deg 100% 50%) 0%,
+    hsl(45deg 100% 50%) 14%,
+    hsl(34deg 100% 53%) 27%,
+    hsl(17deg 100% 59%) 39%,
+    hsl(357deg 91% 59%) 48%,
+    hsl(337deg 100% 43%) 57%,
+    hsl(329deg 100% 36%) 68%,
+    hsl(315deg 100% 27%) 78%,
+    hsl(289deg 100% 21%) 89%,
+    hsl(240deg 100% 20%) 100%
+);
+}
